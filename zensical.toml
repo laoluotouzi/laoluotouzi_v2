@@ -1,9 +1,11 @@
 [project]
 site_name = "老罗投资"
-site_description = "A new project generated from the default template project."
+site_description = "老罗投资 / 知行合一 日拱一卒 投资人生"
 site_author = "laoluotouzi"
-#site_url = "https://www.example.com/"
-copyright = "Copyright &copy; 2025 laoluotouzi"
+site_dir = "dist"
+site_url = "http://localhost:8000/"
+dev_addr = "localhost:8000"
+copyright = "Copyright &copy; 2025 老罗投资 / 知行合一 日拱一卒 投资人生"
 
 docs_dir = "docs"
 extra_css = ["assets/extra.css"]
@@ -11,15 +13,15 @@ extra_javascript = ["assets/extra.js"]
 
 [project.theme]
 variant = "material"
-#custom_dir = "overrides"
+custom_dir = "overrides"
 favicon = "assets/images/favicon.ico"
 language = "zh"
 features = []
 
 [[project.theme.palette]]
 scheme = "default"
-toggle.icon = "lucide/sun"
-toggle.name = "Switch to dark mode"
+#toggle.icon = "lucide/sun"
+#toggle.name = "Switch to dark mode"
 
 [[project.theme.palette]]
 scheme = "slate"
