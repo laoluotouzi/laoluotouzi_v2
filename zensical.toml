@@ -12,7 +12,7 @@ extra_javascript = ["assets/extra.js"]
 [project.theme]
 variant = "material"
 #custom_dir = "overrides"
-#favicon = "assets/images/favicon.icon"
+favicon = "assets/images/favicon.ico"
 language = "zh"
 features = []
 
@@ -34,8 +34,8 @@ toggle.name = "Switch to light mode"
 #logo = "assets/images/logo.png"
 #repo = "lucide/smile"
 
-#[[project.extra.social]]
-#icon = "fontawesome/brands/github"
-#link = "https://github.com/user/repo"
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/laoluotouzi"
 
 
